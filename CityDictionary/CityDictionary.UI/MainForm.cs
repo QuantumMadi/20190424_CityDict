@@ -21,6 +21,7 @@ namespace CityDictionary.UI
             contextServices = new ContextServices();
             cities = contextServices.GetCities();
             List<string> citiesNames = new List<string>();
+
             foreach (var city in cities)
             {
                 citiesNames.Add(city.Name);
